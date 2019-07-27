@@ -675,69 +675,87 @@ console.error: BroadcastService:
 1564134994212	Marionette	DEBUG	0 -> [0,10,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"efbfe360-78b5-496c-9d0e-9de45f928730","element-6066-11e4-a52e-4f735466ce ... dow!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);","scriptTimeout":null,"specialPowers":false}]
 1564134994222	Marionette	DEBUG	0 <- [1,10,null,{"value":"<html lang=\"en\"><head>\n    <meta charset=\"utf-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content ... n\n\n\n\n\n\n\n<div id=\"search_suggest\" style=\"display: none; top: 78px; left: 275.9px;\"><ul></ul></div></body></html>"}]
 1564135259686	Marionette	DEBUG	Closed connection 0
-1564135274193	geckodriver	INFO	geckodriver 0.21.0
-1564135274207	geckodriver	INFO	Listening on 127.0.0.1:53118
-1564135277221	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Administrator\\AppData\\Local\\Temp\\rust_mozprofile.uce7QFA6o1tg"
-1564135278052	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
-1564135278053	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
-1564135278222	Marionette	TRACE	Received observer notification profile-after-change
-1564135278394	Marionette	TRACE	Received observer notification toplevel-window-ready
-1564135278430	Marionette	TRACE	Received observer notification command-line-startup
-1564135278430	Marionette	TRACE	Received observer notification nsPref:changed
-1564135278430	Marionette	DEBUG	Init aborted (running=false, enabled=true, finalUIStartup=false)
-1564135278491	Marionette	TRACE	Received observer notification toplevel-window-ready
-1564135279864	Marionette	TRACE	Received observer notification sessionstore-windows-restored
-1564135279864	Marionette	TRACE	Waiting until startup recorder finished recording startup scripts...
-1564135279983	Marionette	TRACE	All scripts recorded.
-1564135279984	Marionette	DEBUG	Setting recommended pref app.update.disabledForTesting to true
-1564135279984	Marionette	DEBUG	Setting recommended pref apz.content_response_timeout to 60000
-1564135279984	Marionette	DEBUG	Setting recommended pref browser.contentblocking.introCount to 99
-1564135279984	Marionette	DEBUG	Setting recommended pref browser.download.panel.shown to true
-1564135279984	Marionette	DEBUG	Setting recommended pref browser.newtabpage.enabled to false
-1564135279984	Marionette	DEBUG	Setting recommended pref browser.pagethumbnails.capturing_disabled to true
-1564135279985	Marionette	DEBUG	Setting recommended pref browser.search.update to false
-1564135279985	Marionette	DEBUG	Setting recommended pref browser.tabs.disableBackgroundZombification to false
-1564135279985	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnCloseOtherTabs to false
-1564135279986	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnOpen to false
-1564135279986	Marionette	DEBUG	Setting recommended pref browser.usedOnWindows10.introURL to 
-1564135279986	Marionette	DEBUG	Setting recommended pref browser.urlbar.suggest.searches to false
-1564135279986	Marionette	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
-1564135279986	Marionette	DEBUG	Setting recommended pref dom.disable_beforeunload to true
-1564135279986	Marionette	DEBUG	Setting recommended pref dom.disable_open_during_load to false
-1564135279987	Marionette	DEBUG	Setting recommended pref dom.file.createInChild to true
-1564135279987	Marionette	DEBUG	Setting recommended pref dom.max_chrome_script_run_time to 0
-1564135279987	Marionette	DEBUG	Setting recommended pref dom.max_script_run_time to 0
-1564135279987	Marionette	DEBUG	Setting recommended pref extensions.getAddons.cache.enabled to false
-1564135279987	Marionette	DEBUG	Setting recommended pref extensions.webservice.discoverURL to http://%(server)s/dummy/discoveryURL
-1564135279987	Marionette	DEBUG	Setting recommended pref network.http.prompt-temp-redirect to false
-1564135279987	Marionette	DEBUG	Setting recommended pref network.http.speculative-parallel-limit to 0
-1564135279987	Marionette	DEBUG	Setting recommended pref security.fileuri.strict_origin_policy to false
-1564135279988	Marionette	DEBUG	Setting recommended pref security.notification_enable_delay to 0
-1564135279988	Marionette	DEBUG	Setting recommended pref signon.autofillForms to false
-1564135279988	Marionette	DEBUG	Setting recommended pref signon.rememberSignons to false
-1564135279988	Marionette	DEBUG	Setting recommended pref toolkit.cosmeticAnimations.enabled to false
-1564135280025	Marionette	INFO	Listening on port 53130
-1564135280026	Marionette	DEBUG	Remote service is active
-1564135280473	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:53144
-1564135280478	Marionette	DEBUG	0 -> [0,1,"WebDriver:NewSession",{"acceptInsecureCerts":true,"browserName":"firefox","capabilities":{"desiredCapabilities":{"acceptInsecureCerts":true,"browserName":"firefox"}}}]
-1564135280479	Marionette	WARN	TLS certificate errors will be ignored for this session
-1564135280531	Marionette	TRACE	[6442450945] Frame script loaded
-1564135280533	Marionette	TRACE	[6442450945] Frame script registered
-1564135280535	Marionette	DEBUG	0 <- [1,1,null,{"sessionId":"d918366e-a746-456e-aef3-ec2f5de12c75","capabilities":{"browserName":"firefox","browserVersion":"65.0. ... alse,"moz:webdriverClick":true,"capabilities":{"desiredCapabilities":{"acceptInsecureCerts":true,"browserName":"firefox"}}}}]
-1564135280572	Marionette	DEBUG	0 -> [0,2,"WebDriver:Navigate",{"url":"https://movie.douban.com/subject_search?search_text=宁浩&cat=1002&start=0"}]
-1564135280628	Marionette	TRACE	[6442450945] Received DOM event beforeunload for about:blank
-1564135281841	Marionette	TRACE	[6442450945] Received DOM event pagehide for about:blank
-1564135282586	Marionette	TRACE	[6442450945] Received DOM event DOMContentLoaded for https://movie.douban.com/subject_search?search_text=%E5%AE%81%E6%B5%A9&cat=1002&start=0
-1564135282937	Marionette	TRACE	[6442450945] Received DOM event pageshow for https://movie.douban.com/subject_search?search_text=%E5%AE%81%E6%B5%A9&cat=1002&start=0
-1564135282939	Marionette	DEBUG	0 <- [1,2,null,{"value":null}]
-1564135283944	Marionette	DEBUG	0 -> [0,3,"WebDriver:FindElement",{"using":"xpath","value":"//*"}]
-1564135283947	Marionette	DEBUG	0 <- [1,3,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"d433d669-e31c-4461-b41e-15809319f014"}}]
-1564135283949	Marionette	DEBUG	0 -> [0,4,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"d433d669-e31c-4461-b41e-15809319f014","element-6066-11e4-a52e-4f735466cec ... dow!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);","scriptTimeout":null,"specialPowers":false}]
-1564135283957	Marionette	DEBUG	0 <- [1,4,null,{"value":"<html lang=\"en\"><head>\n    <meta charset=\"utf-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content= ... n\n\n\n\n\n\n\n<div id=\"search_suggest\" style=\"display: none; top: 78px; left: 275.9px;\"><ul></ul></div></body></html>"}]
-1564135283975	Marionette	DEBUG	0 -> [0,5,"WebDriver:Navigate",{"url":"https://movie.douban.com/subject_search?search_text=宁浩&cat=1002&start=15"}]
-1564135283983	Marionette	TRACE	[6442450945] Received DOM event beforeunload for https://movie.douban.com/subject_search?search_text=%E5%AE%81%E6%B5%A9&cat=1002&start=0
-1564135284506	Marionette	TRACE	[6442450945] Received DOM event pagehide for https://movie.douban.com/subject_search?search_text=%E5%AE%81%E6%B5%A9&cat=1002&start=0
-1564135284509	Marionette	TRACE	[6442450945] Received DOM event unload for https://movie.douban.com/subject_search?search_text=%E5%AE%81%E6%B5%A9&cat=1002&start=0
+1564135493798	addons.xpi-utils	WARN	Add-on webcompat@mozilla.org is not correctly signed.
+1564135493798	addons.xpi-utils	WARN	Add-on webcompat@mozilla.org is not correctly signed.
+1564135493997	addons.xpi-utils	WARN	Add-on baidu-code-update@mozillaonline.com is not correctly signed.
+1564135493997	addons.xpi-utils	WARN	Add-on baidu-code-update@mozillaonline.com is not correctly signed.
+1564135494232	addons.xpi-utils	WARN	Add-on fxmonitor@mozilla.org is not correctly signed.
+1564135494232	addons.xpi-utils	WARN	Add-on fxmonitor@mozilla.org is not correctly signed.
+1564135494234	addons.xpi	WARN	System add-on baidu-code-update@mozillaonline.com isn't compatible with the application.
+1564135494234	addons.manager	WARN	Failed to update system addons: Error: Rejecting updated system add-on set that either could not be downloaded or contained unusable add-ons.(resource://gre/modules/addons/XPIInstall.jsm:3469:13) JS Stack trace: updateSystemAddons@XPIInstall.jsm:3469:13
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:188:13
+
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:188:13
+
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:188:13
+
+1564221894178	addons.xpi-utils	WARN	Add-on baidu-code-update@mozillaonline.com is not correctly signed.
+1564221894179	addons.xpi-utils	WARN	Add-on baidu-code-update@mozillaonline.com is not correctly signed.
+1564221894189	addons.xpi-utils	WARN	Add-on webcompat@mozilla.org is not correctly signed.
+1564221894189	addons.xpi-utils	WARN	Add-on webcompat@mozilla.org is not correctly signed.
+1564221894213	addons.xpi-utils	WARN	Add-on fxmonitor@mozilla.org is not correctly signed.
+1564221894213	addons.xpi-utils	WARN	Add-on fxmonitor@mozilla.org is not correctly signed.
+1564221894213	addons.xpi	WARN	System add-on baidu-code-update@mozillaonline.com isn't compatible with the application.
+1564221894213	addons.manager	WARN	Failed to update system addons: Error: Rejecting updated system add-on set that either could not be downloaded or contained unusable add-ons.(resource://gre/modules/addons/XPIInstall.jsm:3469:13) JS Stack trace: updateSystemAddons@XPIInstall.jsm:3469:13
+[Parent 8796, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 16800, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 16800, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Parent 8796, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 11544, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 11544, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Parent 8796, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 20304, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 20304, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Parent 8796, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 166
+1564229433451	Marionette	TRACE	Received observer notification xpcom-will-shutdown
+1564229433452	Marionette	DEBUG	Resetting recommended pref app.update.disabledForTesting
+1564229433452	Marionette	DEBUG	Resetting recommended pref apz.content_response_timeout
+1564229433453	Marionette	DEBUG	Resetting recommended pref browser.contentblocking.introCount
+1564229433453	Marionette	DEBUG	Resetting recommended pref browser.download.panel.shown
+1564229433453	Marionette	DEBUG	Resetting recommended pref browser.newtabpage.enabled
+1564229433453	Marionette	DEBUG	Resetting recommended pref browser.pagethumbnails.capturing_disabled
+1564229433454	Marionette	DEBUG	Resetting recommended pref browser.search.update
+1564229433454	Marionette	DEBUG	Resetting recommended pref browser.tabs.disableBackgroundZombification
+1564229433454	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnCloseOtherTabs
+1564229433454	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnOpen
+1564229433454	Marionette	DEBUG	Resetting recommended pref browser.usedOnWindows10.introURL
+1564229433454	Marionette	DEBUG	Resetting recommended pref browser.urlbar.suggest.searches
+1564229433455	Marionette	DEBUG	Resetting recommended pref datareporting.policy.dataSubmissionPolicyAccepted
+1564229433455	Marionette	DEBUG	Resetting recommended pref dom.disable_beforeunload
+1564229433455	Marionette	DEBUG	Resetting recommended pref dom.disable_open_during_load
+1564229433455	Marionette	DEBUG	Resetting recommended pref dom.file.createInChild
+1564229433455	Marionette	DEBUG	Resetting recommended pref dom.max_chrome_script_run_time
+1564229433456	Marionette	DEBUG	Resetting recommended pref dom.max_script_run_time
+1564229433456	Marionette	DEBUG	Resetting recommended pref extensions.getAddons.cache.enabled
+1564229433456	Marionette	DEBUG	Resetting recommended pref extensions.webservice.discoverURL
+1564229433456	Marionette	DEBUG	Resetting recommended pref network.http.prompt-temp-redirect
+1564229433456	Marionette	DEBUG	Resetting recommended pref network.http.speculative-parallel-limit
+1564229433456	Marionette	DEBUG	Resetting recommended pref security.fileuri.strict_origin_policy
+1564229433456	Marionette	DEBUG	Resetting recommended pref security.notification_enable_delay
+1564229433457	Marionette	DEBUG	Resetting recommended pref signon.autofillForms
+1564229433457	Marionette	DEBUG	Resetting recommended pref signon.rememberSignons
+1564229433457	Marionette	DEBUG	Resetting recommended pref toolkit.cosmeticAnimations.enabled
+1564229433458	Marionette	INFO	Stopped listening on port 52421
+1564229433458	Marionette	DEBUG	Remote service is inactive
+E	[6442450945] Received DOM event unload for https://movie.douban.com/subject_search?search_text=%E5%AE%81%E6%B5%A9&cat=1002&start=0
 1564135284857	Marionette	TRACE	[6442450945] Received observer notification outer-window-destroyed
 1564135284858	Marionette	TRACE	[6442450945] Received observer notification outer-window-destroyed
 1564135284858	Marionette	TRACE	[6442450945] Received observer notification outer-window-destroyed
@@ -767,3 +785,84 @@ console.error: BroadcastService:
 1564135288886	Marionette	DEBUG	0 <- [1,9,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"7ba5945b-2f1a-4cfd-896e-a8b8acf9b031"}}]
 1564135288890	Marionette	DEBUG	0 -> [0,10,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"7ba5945b-2f1a-4cfd-896e-a8b8acf9b031","element-6066-11e4-a52e-4f735466ce ... dow!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);","scriptTimeout":null,"specialPowers":false}]
 1564135288901	Marionette	DEBUG	0 <- [1,10,null,{"value":"<html lang=\"en\"><head>\n    <meta charset=\"utf-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content ... n\n\n\n\n\n\n\n<div id=\"search_suggest\" style=\"display: none; top: 78px; left: 275.9px;\"><ul></ul></div></body></html>"}]
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:188:13
+
+1564135789384	addons.xpi-utils	WARN	Add-on fxmonitor@mozilla.org is not correctly signed.
+1564135789384	addons.xpi-utils	WARN	Add-on fxmonitor@mozilla.org is not correctly signed.
+1564135789460	addons.xpi-utils	WARN	Add-on baidu-code-update@mozillaonline.com is not correctly signed.
+1564135789461	addons.xpi-utils	WARN	Add-on baidu-code-update@mozillaonline.com is not correctly signed.
+1564135790443	addons.xpi-utils	WARN	Add-on webcompat@mozilla.org is not correctly signed.
+1564135790444	addons.xpi-utils	WARN	Add-on webcompat@mozilla.org is not correctly signed.
+1564135790445	addons.xpi	WARN	System add-on baidu-code-update@mozillaonline.com isn't compatible with the application.
+1564135790446	addons.manager	WARN	Failed to update system addons: Error: Rejecting updated system add-on set that either could not be downloaded or contained unusable add-ons.(resource://gre/modules/addons/XPIInstall.jsm:3469:13) JS Stack trace: updateSystemAddons@XPIInstall.jsm:3469:13
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:188:13
+
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:188:13
+
+1564222190652	addons.xpi-utils	WARN	Add-on fxmonitor@mozilla.org is not correctly signed.
+1564222190652	addons.xpi-utils	WARN	Add-on fxmonitor@mozilla.org is not correctly signed.
+1564222190872	addons.xpi-utils	WARN	Add-on baidu-code-update@mozillaonline.com is not correctly signed.
+1564222190873	addons.xpi-utils	WARN	Add-on baidu-code-update@mozillaonline.com is not correctly signed.
+1564222191556	addons.xpi-utils	WARN	Add-on webcompat@mozilla.org is not correctly signed.
+1564222191556	addons.xpi-utils	WARN	Add-on webcompat@mozilla.org is not correctly signed.
+1564222191557	addons.xpi	WARN	System add-on baidu-code-update@mozillaonline.com isn't compatible with the application.
+1564222191557	addons.manager	WARN	Failed to update system addons: Error: Rejecting updated system add-on set that either could not be downloaded or contained unusable add-ons.(resource://gre/modules/addons/XPIInstall.jsm:3469:13) JS Stack trace: updateSystemAddons@XPIInstall.jsm:3469:13
+[Parent 16204, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Parent 16204, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 19612, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 19612, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 16612, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 16612, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+1564229431337	Marionette	DEBUG	Closed connection 0
+[Parent 16204, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 18660, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 18660, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Parent 16204, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 166
+1564229431654	Marionette	TRACE	Received observer notification xpcom-will-shutdown
+1564229431654	Marionette	DEBUG	Resetting recommended pref app.update.disabledForTesting
+1564229431655	Marionette	DEBUG	Resetting recommended pref apz.content_response_timeout
+1564229431655	Marionette	DEBUG	Resetting recommended pref browser.contentblocking.introCount
+1564229431655	Marionette	DEBUG	Resetting recommended pref browser.download.panel.shown
+1564229431655	Marionette	DEBUG	Resetting recommended pref browser.newtabpage.enabled
+1564229431656	Marionette	DEBUG	Resetting recommended pref browser.pagethumbnails.capturing_disabled
+1564229431656	Marionette	DEBUG	Resetting recommended pref browser.search.update
+1564229431656	Marionette	DEBUG	Resetting recommended pref browser.tabs.disableBackgroundZombification
+1564229431656	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnCloseOtherTabs
+1564229431656	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnOpen
+1564229431656	Marionette	DEBUG	Resetting recommended pref browser.usedOnWindows10.introURL
+1564229431656	Marionette	DEBUG	Resetting recommended pref browser.urlbar.suggest.searches
+1564229431657	Marionette	DEBUG	Resetting recommended pref datareporting.policy.dataSubmissionPolicyAccepted
+1564229431657	Marionette	DEBUG	Resetting recommended pref dom.disable_beforeunload
+1564229431657	Marionette	DEBUG	Resetting recommended pref dom.disable_open_during_load
+1564229431657	Marionette	DEBUG	Resetting recommended pref dom.file.createInChild
+1564229431657	Marionette	DEBUG	Resetting recommended pref dom.max_chrome_script_run_time
+1564229431658	Marionette	DEBUG	Resetting recommended pref dom.max_script_run_time
+1564229431658	Marionette	DEBUG	Resetting recommended pref extensions.getAddons.cache.enabled
+1564229431658	Marionette	DEBUG	Resetting recommended pref extensions.webservice.discoverURL
+1564229431658	Marionette	DEBUG	Resetting recommended pref network.http.prompt-temp-redirect
+1564229431658	Marionette	DEBUG	Resetting recommended pref network.http.speculative-parallel-limit
+1564229431658	Marionette	DEBUG	Resetting recommended pref security.fileuri.strict_origin_policy
+1564229431658	Marionette	DEBUG	Resetting recommended pref security.notification_enable_delay
+1564229431659	Marionette	DEBUG	Resetting recommended pref signon.autofillForms
+1564229431659	Marionette	DEBUG	Resetting recommended pref signon.rememberSignons
+1564229431659	Marionette	DEBUG	Resetting recommended pref toolkit.cosmeticAnimations.enabled
+1564229431660	Marionette	INFO	Stopped listening on port 53130
+1564229431660	Marionette	DEBUG	Remote service is inactive
